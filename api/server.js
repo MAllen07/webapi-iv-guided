@@ -1,5 +1,9 @@
+require('dotenv').config(); //first step initializing valuables 
+
 const express = require('express');
 const helmet = require('helmet');
+
+
 
 const db = require('../data/db.js');
 
